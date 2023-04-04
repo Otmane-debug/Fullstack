@@ -1,0 +1,137 @@
+.back-im {
+        background-image: url("../images/wall.jpg");
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center;
+        display: flex;
+        text-align: center;
+
+}
+
+.titr{
+        background-color: white;
+        opacity: 60%;
+        margin-left: 30%;
+        margin-right: 30%;
+        padding: 5%;
+}
+.titr h1{
+        color: black;
+        opacity: 100%;
+}
+
+.btn-titr{
+        font-size:x-large;
+}
+
+.next-title{
+        background-color: #E5E5E5;
+        padding: 10px;
+        text-align: center;
+}
+.quote {
+        text-align: center;
+        margin: 7%;
+        font-size: x-large;
+}
+
+.browse {
+        margin: 7%;
+}
+
+.img-browse{
+        background-image: url("../images/shop.jpg");
+        height: 60vh;
+        width: 80%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        margin-left: 7%;
+}
+
+.text-browse{
+        margin-top: 20%;
+        margin-left: 15%;
+}
+
+.btn-browse{
+        margin-top: 5%;
+}
+
+.footer{
+        background-color: #303132;
+        padding: 4%;
+        color: white;
+}
+
+.colmns{
+        margin-top: 6%;
+        text-align: center;
+}
+
+.footTitle{
+        margin: 7%;
+}
+
+img{
+        width: 6%;
+        margin: 2%;
+}
+
+.form{
+        margin: 2%;
+}
+
+#button {
+        width:100%;
+}
+
+
+.test-Shop{
+        margin-top: 70px;
+}
+
+.titre{
+        margin-top: 150px;
+        margin-bottom: 80px;
+        text-align: center;
+}
+
+.btn{
+        width: 50%;
+}
+
+.product{
+        margin-top: 200px;
+}
+
+.im{
+        width: 80%;
+        margin-left: 10%;
+}
+
+.prod_cont{
+        margin-bottom: 80px;
+}
+
+.log_res{
+        margin-bottom: 10%;
+        margin-top: 12%;
+        margin-left: 20%;
+        margin-right: 20%;
+ 
+}
+
+.text-col{
+        margin-left: 15%;
+        align-items: center;
+}
+.card_titre{
+        text-align: center;
+}
+
+#card_btn{
+        width: 100%;
+}

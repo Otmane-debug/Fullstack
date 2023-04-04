@@ -1,0 +1,30 @@
+from django.db import models
+
+# Create your models here.
+
+class Product(models.Model):
+    Model_id = models.CharField(max_length=100)
+    Barcode = models.CharField(max_length=100)
+    Brand = models.CharField(max_length=100)
+    Name = models.CharField(max_length=100)
+    Product_code = models.CharField(max_length=100)
+    Sku = models.CharField(max_length=100)
+    Cost_no_vat = models.IntegerField()
+    Selling_price = models.IntegerField()
+    Street_price = models.IntegerField()
+    Description = models.CharField(max_length=100)
+    Weight = models.IntegerField()
+    Picture_1 = models.CharField(max_length=100)
+    Picture_2 = models.CharField(max_length=100)
+    Picture_3 = models.CharField(max_length=100)
+    Picture_4 = models.CharField(max_length=100)
+    Made_in = models.CharField(max_length=100)
+    Shoes_heel = models.CharField(max_length=100)
+    Category = models.CharField(max_length=100)
+    Subcategory = models.CharField(max_length=100)
+    Season = models.CharField(max_length=100)
+    Color = models.CharField(max_length=100)
+    Bicolors = models.CharField(max_length=100)
+    Gender = models.CharField(max_length=100)
+    Size = models.CharField(max_length=100)
+    Quantity = models.IntegerField()
